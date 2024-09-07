@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Parzival-Prime.github.io/Frontend-Assignment",
+  "homepage": "https://Parzival-Prime.github.io/Frontend-Assignment/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
