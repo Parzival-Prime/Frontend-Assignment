@@ -1,0 +1,93 @@
+.top-widget{
+    width: 26rem;
+    height: 11.1rem;
+    border-radius: 10px;
+    background-color: rgb(58, 64, 71);
+    padding-block: .5rem;
+    padding-inline: .3rem;
+    display: flex;
+    position: relative;
+}
+
+.icon {
+    height: 1.1rem;
+}
+
+.right-bar{
+    position: absolute;
+    background: rgb(96,95,95);
+    background: linear-gradient(0deg, rgba(96,95,95,1) 13%, rgba(148,148,148,1) 100%);
+    width: 5px;
+    height: 2.5rem;
+    border-radius: 8px;
+    top: 4rem;
+    right: 10px;
+}
+
+.tw-right{
+    padding: .3rem;
+}
+
+.tw-text {
+    border-radius: 15px;
+    padding-top: 1.2rem;
+    font-weight: 400;
+    font-size: .77rem;
+    padding-right: 2rem;
+    color: rgb(146, 145, 145);
+}
+
+.tw-tab-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 23rem;
+    height: 2.2rem;
+    background-color: black;
+    border-radius: 13px;
+    position: relative;
+}
+
+.tw-buttons{
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 1.8rem;
+    width: 7rem;
+    border: none;
+    font-size: .709rem;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+    z-index: 2;
+    /* transition: background-color .4s ease, color .4s ease; */
+}
+
+
+.active-button{
+    color: white !important;
+}
+
+.bg-pad{
+    z-index: 1;
+    position: absolute;
+    height: 1.8rem;
+    width: 7rem;
+    background-color: rgb(35, 41, 48);
+    border-radius: 10px;
+    transition: transform .5s ease, box-shadow .5s ease;
+}
+
+.bg-pad-1{
+    transform: translateX(-7.6rem);
+    box-shadow: 10px 13px 26px 10px rgba(0, 0, 0, .9);
+}
+
+.bg-pad-2{
+    transform: translateX();
+    box-shadow: 10px 13px 26px 10px rgba(0, 0, 0, .9);
+}
+
+.bg-pad-3{
+    transform: translateX(7.6rem);
+    box-shadow: 10px 13px 26px 10px rgba(0, 0, 0, .9);
+}
